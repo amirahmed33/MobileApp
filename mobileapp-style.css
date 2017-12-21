@@ -10,7 +10,7 @@ body{
 
 .header{
     background: #15311a;
-    background-image: url(../images/slider.jpg);
+    background-image: url(../images/slider1.jpg);
     background-size: cover;
     background-blend-mode: overlay;
     height: 600px;
@@ -93,8 +93,6 @@ body{
 .features{
     background-color: #ffffff;
     overflow: hidden;
-    padding-top: 40px;
-    padding-bottom: 30px;
 }
 
 .features .above h2{
@@ -115,45 +113,36 @@ hr{
     padding-bottom: 70px;
 }
 
-.features .middle{padding: 30px; margin-bottom: 50px}
+.features .middle{padding: 0; margin-bottom: 50px;}
 
 .features .feat{width: 33.33333%; height: 150px}
 
-.features .feat i{margin-left: 230px; color: #6fb048}
+.features .feat i{margin-left: 185px; color: #6fb048}
 
 .features .feat h3{text-align: center; color: #0f5f5c;}
 
 .features .feat p{text-align: center; color: #8badab}
 
-/*
-.features .content{margin-top: 100px;}
 
-.features .content span{font-size: 50px; color: #488c1f; padding-left: 100px; }
+.features .bottom{display: inline-block; padding-left: 40px;}
 
-.features .text{padding-left: 50px;}
+.features .bottom .content i{margin-top: 200px; display: inline-block; padding-right: 30px;color: #6fb048}
 
-.features .text h3{color: #0f5f5c;}
+.features .bottom .content h3{margin-top: 215px; display: inline-block;position: absolute; color: #0f5f5c}
 
-.features .text p{color: #83a7a5; margin-bottom: 10px; margin-right: 50px;}
-*/
-
-.features .bottom .content{margin-left: 90px; margin-bottom: 10px}
-
-.features .bottom .content i{display: inline-block; margin-bottom: 30px; padding: 10px; position: absolute; margin-top: 65px;}
-
-.features .content h3{display: inline-block;padding-left: 80px;}
-
-.features .content p{padding-left: 10px; margin-bottom: 10px}
+.features .bottom .content p{color: #8badab}
 
 
+.responsive h2{text-align: center; padding-top: 80px; color: #0f5f5c}
+
+.responsive p{text-align: center; color: #83a7a5}
+
+.responsive img{
+    width: 300px;
+    padding-top: 30px;
+    padding-left: 250px;
+}
 
 
 
 .fl-left{float: left}
-
-
-
-
-
-
-
